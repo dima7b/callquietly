@@ -1,3 +1,5 @@
+// http://stackoverflow.com/questions/24835925/meteor-js-reactive-html5-geolocation-position-coords
+
 _lat = {
   current: 0,
   dep: new Deps.Dependency,
