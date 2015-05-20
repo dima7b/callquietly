@@ -1,0 +1,72 @@
+body {
+	color: #000;
+	font-size: 100%;
+}
+
+nav {
+		margin-bottom: 15px;
+	  height: 150px;
+    background: -webkit-linear-gradient(#2598f3, white 80%);
+    background: -o-linear-gradient(#2598f3, white 80%);
+    background: -moz-linear-gradient(#2598f3, white 80%);
+    background: linear-gradient(#2598f3, white 80%);
+
+    .nav-wrapper {
+    	padding-right: 30px;
+    	padding-left: 30px;
+    }
+
+	.brand-logo {
+		position: relative;
+		display: inline-block;
+
+		.logo {
+			margin-right: 15px;
+			margin-left: 15px;
+			width: 100%;
+			max-width: 30px;
+		}
+	}
+
+	.input-field {
+		border-bottom: 2px solid #2196f3;
+		#search { margin-bottom: 0px; }
+	}
+}
+
+.container {  margin-top: 110px; }
+
+.row {
+	.place {
+		margin-bottom: 15px;
+		padding: 0px;
+	  padding-bottom: 15px;
+
+		.place-title {
+			margin-top: 0px;
+			margin-bottom: 1rem;
+			padding: 15px;
+		}
+
+		.place-content {
+			padding-right: 15px;
+			padding-left: 15px;
+		}
+	}	
+}
+
+::-webkit-input-placeholder {
+   color: #2196f3;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #2196f3;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #2196f3;  
+}
+
+:-ms-input-placeholder {  
+   color: #2196f3;  
+}
